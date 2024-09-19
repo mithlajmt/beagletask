@@ -25,7 +25,8 @@ export class JobListingComponent {
       logo: 'assets/dribble-logo.png',
       date: 'October 25, 2022',
       position: 'Backend Developer',
-      tags: ['Design', 'Full Time'],
+      tag: 'Marketing',
+      role:'part-time',
       location: 'Dallas',
       salary: '$ 50k-70k'
     },
@@ -35,7 +36,8 @@ export class JobListingComponent {
       logo: 'assets/tokopedia-logo.png',
       date: 'March 30, 2021',
       position: 'Scrum Master',
-      tags: ['Marketing', 'Part Time'],
+      tag: 'Marketing',
+      role:'part-time',
       location: 'San Antonio',
       salary: '$ 130k-160k'
     },
@@ -45,7 +47,8 @@ export class JobListingComponent {
       logo: 'assets/facebook-logo.png',
       date: 'March 30, 2021',
       position: 'Lead Technical Architect',
-      tags: ['Technology', 'Full Time'],
+      tag: 'Marketing',
+      role:'part-time',
       location: 'Melbourne',
       salary: '$ 210k-240k'
     },
@@ -55,7 +58,8 @@ export class JobListingComponent {
       logo: 'assets/spotify-logo.png',
       date: 'March 30, 2021',
       position: 'Digital Media Strategist',
-      tags: ['Business', 'Casual'],
+      tag: 'Marketing',
+      role:'part-time',
       location: 'New York',
       salary: '$ 50k-70k'
     },
@@ -65,7 +69,8 @@ export class JobListingComponent {
       logo: 'assets/paypal-logo.png',
       date: 'March 30, 2021',
       position: 'Systems Administrator',
-      tags: ['Business', 'Casual'],
+      tag: 'Marketing',
+      role:'part-time',
       location: 'California',
       salary: '$ 40k-50k'
     }
