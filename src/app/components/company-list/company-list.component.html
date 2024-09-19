@@ -1,0 +1,22 @@
+<div class="flex flex-col">
+
+    <div>
+        <h1 class="text-4xl font-bold">Work with exciting companies</h1>
+    </div>
+    <div>
+        <p class="text-gray-600 pt-1">Discover more than 1,600 open positions</p>
+    </div>
+
+    <div class="pt-12  grid grid-cols-3 gap-6 ">
+        <div *ngFor="let company of companies" class="p-6 rounded-lg shadow-md"  >
+                <div class="flex items-center mb-4">
+                  <img [src]="company.logo" [alt]="company.name" class="w-10 h-10 mr-3">
+                  <h2 class="text-xl font-semibold">{{ company.name }}</h2>
+                </div>
+                <p class="text-gray-600 mb-4">{{ company.description }}</p>
+                <div class="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full inline-block">
+                  {{ company.employeeCount }} Employees
+                </div>
+    </div>
+
+</div>
