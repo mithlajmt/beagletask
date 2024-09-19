@@ -14,6 +14,8 @@ import { NewsComponent } from './pages/news/news.component';
 import { ExploreComponent } from './pages/explore/explore.component';
 import { SearchComponent } from './components/search/search.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LandingImageComponent } from './pages/landing-image/landing-image.component';
+import { CompanyImageComponent } from './components/company-image/company-image.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { FooterComponent } from './components/footer/footer.component';
     NewsComponent,
     ExploreComponent,
     SearchComponent,
-    FooterComponent
+    FooterComponent,
+    LandingImageComponent,
+    CompanyImageComponent
   ],
   imports: [
     BrowserModule
