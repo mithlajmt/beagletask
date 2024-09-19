@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'texter': '#443FDE', 
+      },
+      fontWeights: {
+        '450': {
+          fontWeight: 450
+        }
+      },
+    },
   },
   plugins: [],
 }

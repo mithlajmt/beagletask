@@ -1,17 +1,19 @@
-<div class=" pt-14 grid grid-cols-2">
+<div class=" pt-24 grid grid-cols-2">
 
-    <div class="bg-blue-300">
-        <div class="flex items-center bg-yellow-300">
-            <a href="#" class="text-indigo-600  text-xl font-bold">HireUP</a>
-      </div>
+    <div class="flex items-center  col-span-2">
+        <a href="#" class="text-black  text-3xl font-bold"> <span class="text-blue-900">></span> HireUP</a>
+  </div>
 
+
+    <div class=" pt-8">
+       
       <div>
           
-          <div class="flex space-x-10">
-              <div *ngFor="let data of datas">
+          <div class="flex gap-20">
+              <div *ngFor="let data of datas" >
                   <h4 class="font-bold mb-2">{{ data.title }}</h4>
-                  <ul>
-                      <li *ngFor="let point of data.points" class="mb-1">
+                  <ul class="pt-4">
+                      <li *ngFor="let point of data.points" class="pt-3">
                           {{ point }}
                         </li>
                     </ul>
@@ -22,11 +24,11 @@
     </div>
 
     <div>
-        <div class="bg-blue-500 ">
-            <h3>Signup to out NewsLetter</h3>
-            <div class="flex flex-row gap-4 items-center">
-                <input type="text"  class="flex-1 h-12 " placeholder=" enter your NewsLetter">
-                <button class=" bg-blue-500 text-white py-5 px-3"> Get started</button>
+        <div class="pt-8">
+            <h3 class="text-gray-600 uppercase text-lg font-semibold">Signup to out NewsLetter</h3>
+            <div class="flex flex-row gap-4 items-center pt-4">
+                <input type="text"  class="flex-1 h-12   border-2 " placeholder=" enter your NewsLetter">
+                <button class=" bg-blue-500 text-white py-3 px-3"> Get started</button>
             </div>
        </div>
        
